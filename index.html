@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Caso Práctico</title>
+    <link rel="stylesheet" href="src/css/style.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <button id="start-button">Iniciar Experiencia</button> <!-- Botón de inicio -->
+    <p class="intro" style="display: none;">
+      Hace mucho tiempo, en un trabajo que se complicó bastante...&hellip;
+    </p>
+    <h1 style="display: none;">WOOKIE<br>PEDIA</h1>
+    <canvas id="sky"></canvas>
+    <div class="content-wrapper" style="display: none;">
+      <div class="html-content">
+        <p class="episode-title">
+          EPISODE I<br/>UN NUEVO REPOSITORIO<br/>v.1.0<br/><br/>Creado por:<br/>Alejandro Delgado
+        </p>
+        <p class="narration">
+          En una galaxia de código y creatividad, surge un proyecto único: WookiePedia. Una odisea digital creada por un fanático de Star Wars, cuya pasión por la saga se fusiona con el arte del desarrollo web para ofrecer una experiencia inmersiva a todos los aficionados de este universo legendario.
+          <br><br>En las profundidades de este cosmos digital, WookiePedia se embarca en un viaje épico para explorar las vastas extensiones de la galaxia Star Wars. Desde los confines de Tatooine hasta las heladas llanuras de Hoth, cada planeta que ha brillado en la pantalla será estudiado y revelado en detalle. Las diversas razas que pueblan estos mundos, desde los nobles Jedi hasta los temibles Sith, serán analizadas, ofreciendo una visión única de sus culturas y costumbres.
+          <br><br>Pero eso no es todo. Cada personaje icónico, cada héroe y villano que ha dejado su huella en la saga, será presentado con una profundidad y detalle sin precedentes. WookiePedia se convierte así en un faro de conocimiento, una enciclopedia viviente que crece y evoluciona, al igual que la saga misma.
+          <br><br>Este proyecto es más que un sitio web; es un tributo a Star Wars, una herramienta para que los jóvenes padawan y los veteranos jedis por igual descubran y redescubran los misterios de una galaxia muy, muy lejana. Como su creador, espero que encuentren en WookiePedia la misma pasión y entusiasmo que he sentido al construirlo, y que disfruten de esta saga fantástica tanto como yo lo he hecho.
+          <br><br>Que la Fuerza los acompañe en este viaje a través de WookiePedia, donde cada clic los llevará a un nuevo rincón de nuestra amada galaxia Star Wars.
+        </p>
+      </div>
+    </div>
+    <!-- Botón para saltar la intro -->
+    <a href="home.html" class="skip-intro-btn" style="display: none;">Saltar Intro</a>
+    <!-- Reproductor de audio oculto -->
+    <audio autoplay loop muted id="background-audio">
+      <source src="src/audio/intro-starwars.mp3" type="audio/mpeg">
+      Tu navegador no soporta el elemento de audio.
+    </audio>
+    <script src="src/js/script.js"></script>
+  </body>
+</html>
